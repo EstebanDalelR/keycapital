@@ -1,4 +1,4 @@
-const { default: Container } = require("./Container");
+import Container from "./Container"
 
 let services = [
   { title: "Intermediation", text: "We connect sources of capital with the best business opportunities." },
@@ -9,7 +9,7 @@ let services = [
 const Services = () =>
   <section
     id="servicios"
-    className="w-full bg-gray-100 h-screen">
+    className="w-full bg-gray-100 min-h-screen">
     <Container>
       <div className="flex flex-wrap w-full justify-around items-center h-full">
         <h2 className="w-1/2 text-4xl text-blue-900 font-bold text-center">Servicios</h2>

@@ -1,4 +1,5 @@
 import Image from "next/image"
+
 const Nav = () =>
   <nav className="flex shadow-sm w-full justify-between items-center md:p-4 lg:p-10 xl:px-16 sticky top-0 bg-white h-24 py-2">
     <div className="md:w-3/12 lg:w-5/12 flex justify-center">
@@ -15,7 +16,12 @@ const Nav = () =>
         <a href="#nosotros">
           Nosotros
         </a>
-      </li>      <li>Fundadores</li>
+      </li>
+      <li>
+        <a href="#founders">
+          Fundadores
+        </a>
+      </li>
       <li>Brokers</li>
       <li>Contáctenos</li>
     </ul>
