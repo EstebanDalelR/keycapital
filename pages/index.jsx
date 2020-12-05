@@ -1,4 +1,5 @@
 import AboutUs from "../components/AboutUs"
+import Brokers from "../components/Brokers"
 import Founders from "../components/Founders"
 import Services from "../components/Services"
 
@@ -9,6 +10,7 @@ const Index = ({ }) => {
       <Services />
       <AboutUs />
       <Founders />
+      <Brokers />
     </div>
   )
 }

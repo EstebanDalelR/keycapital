@@ -22,7 +22,11 @@ const Nav = () =>
           Fundadores
         </a>
       </li>
-      <li>Brokers</li>
+      <li>
+        <a href="#brokers">
+          Brokers
+        </a>
+      </li>
       <li>Contáctenos</li>
     </ul>
   </nav>
