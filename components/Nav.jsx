@@ -1,7 +1,7 @@
 import Image from "next/image"
 
 const Nav = () =>
-  <nav className="flex shadow-sm w-full justify-between items-center md:p-4 lg:p-10 xl:px-16 sticky top-0 bg-white h-24 py-2">
+  <nav className="flex shadow-sm w-full justify-between items-center md:p-4 lg:p-10 xl:px-16 sticky top-0 bg-white h-24 py-2 z-20">
     <div className="md:w-3/12 lg:w-5/12 flex justify-center">
       <Image width={200} height={80} src="/sandRect.png" />
     </div>
