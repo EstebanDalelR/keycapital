@@ -1,7 +1,9 @@
 import Container from "./Container"
 
 const AboutUs = () =>
-  <section className="w-full bg-blue-900 h-screen text-gray-100 text-center">
+  <section
+    id="nosotros"
+    className="w-full bg-blue-900 h-screen text-gray-100 text-center">
     <Container>
       <div className="h-full flex flex-col justify-around">
         <div>
