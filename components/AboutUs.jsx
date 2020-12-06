@@ -3,7 +3,7 @@ import Container from "./Container"
 const AboutUs = () =>
   <section
     id="nosotros"
-    className="w-full bg-blue-900 min-h-screen text-gray-100 text-center">
+    className="w-full bg-blue-900 min-h-screen h-full text-gray-100 text-center flex items-stretch">
     <Container>
       <div className="h-full flex flex-col justify-around">
         <div>

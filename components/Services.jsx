@@ -9,7 +9,7 @@ let services = [
 const Services = () =>
   <section
     id="servicios"
-    className="w-full bg-gray-100 min-h-screen">
+    className="w-full bg-gray-100 min-h-screen h-full flex items-stretch">
     <Container>
       <div className="flex flex-wrap w-full justify-around items-center h-full">
         <h2 className="w-1/2 text-4xl text-blue-900 font-bold text-center">Servicios</h2>
