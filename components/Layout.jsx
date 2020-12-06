@@ -3,7 +3,7 @@ import Image from "next/image"
 
 const Layout = ({ children }) => {
   return (
-    <div className="z-0">
+    <div className="z-0 h-full w-screen" style={{width: "100vw"}}>
       <Nav />
       {children}
       <a

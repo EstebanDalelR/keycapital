@@ -11,7 +11,7 @@ const Services = () =>
     id="servicios"
     className="w-full bg-gray-100 min-h-screen h-full flex items-stretch">
     <Container>
-      <div className="flex flex-wrap w-full justify-around items-center h-full">
+      <div className="flex flex-wrap w-full justify-around items-center h-full flex-col md:flex-row">
         <h2 className="w-1/2 text-4xl text-blue-900 font-bold text-center">Servicios</h2>
         <div className="flex flex-wrap w-1/2 justify-around">
           {services.map((service, index) =>
