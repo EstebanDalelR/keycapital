@@ -13,11 +13,11 @@ const Services = () =>
     <Container>
       <div className="flex flex-wrap w-full justify-around items-center h-full flex-col md:flex-row">
         <h2 className="w-1/2 text-4xl text-blue-900 font-bold text-center">Servicios</h2>
-        <div className="flex flex-wrap w-1/2 justify-around">
+        <div className="flex flex-wrap w-full md:w-1/2 justify-around">
           {services.map((service, index) =>
-            <article key={index} className="w-1/2 p-8">
+            <article key={index} className="w-1/2 p-4 md:p-8">
               <h5 className="text-indigo-800 text-2xl">{service.title}</h5>
-              <p className="text-justify">{service.text}</p>
+              <p className="text-left md:text-justify">{service.text}</p>
             </article>)}
         </div>
       </div>
